@@ -44,6 +44,7 @@ const Nav = () => {
             to="work"
             smooth={true}
             spy={true}
+            offset={60}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase />
