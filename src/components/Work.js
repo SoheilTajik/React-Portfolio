@@ -10,6 +10,7 @@ import { faceIn } from "../variants";
 import Img1 from "../assets/project1.jpg";
 import Img2 from "../assets/project2.jpg";
 import Img3 from "../assets/project3.jpg";
+import Img4 from "../assets/project4.jpg";
 
 const Work = () => {
   return (
@@ -80,27 +81,29 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/*images*/}
               <img
-                src={Img2}
+                src={Img4}
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
               {/*pretitle*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Web Design</span>
+                <span className="text-gradient">Ethereum Dapp</span>
               </div>
               {/*title*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
-                <span className="text-lg text-white">HTML & CSS Portfolio</span>
+                <span className="text-lg text-white">
+                  Vite(React), TailwindCSS, Ethers.js, Web3 Provider
+                </span>
                 <div className="flex gap-5">
                   <a
-                    href="https://soheiltajik.github.io/My-Portfolio/"
+                    href="https://eth-trasnsaction-dapp.vercel.app/"
                     target="_blank"
                   >
                     <button className="text-white underline">Demo</button>
                   </a>
 
                   <a
-                    href="https://github.com/SoheilTajik/My-Portfolio"
+                    href="https://github.com/SoheilTajik/Eth-Trasnsaction-Dapp/tree/main"
                     target="_blank"
                   >
                     <button className="text-white underline">Code</button>
@@ -129,7 +132,7 @@ const Work = () => {
                 </span>
                 <div className="flex gap-5">
                   <a
-                    href="https://react-portfolio-amber-mu.vercel.app/#"
+                    href="https://react-portfolio-steel-mu.vercel.app/"
                     target="_blank"
                   >
                     <button className="text-white underline">Demo</button>
